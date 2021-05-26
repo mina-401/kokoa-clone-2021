@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Clone</title>
+</head>
+<body class="chat-screen" id="inf-chat-screen">
+    <div class="status-bar chat-screen">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header chat-header__background">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">imagine</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Wenseday, May 26, 2021
+        </div>
+        <div class="message-row message-slide__left">
+            <img src="https://yt3.ggpht.com/ytc/AAUvwngTwooP74wR16X7HQ_ySF-eyscIlUh149srXIYosg=s900-c-k-c0x00ffffff-no-rj" />
+            <div class="message-row__content">
+                <span class="message__author">imagine babo</span>
+                <div class="message__info">
+                    <span class="message__bubble">hey</span>
+                    <span class="message__time">05:43</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own message-slide__right">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">what</span>
+                    <span class="message__time">05:45</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="keyboard">
+        <div class="keyboard-column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="keyboard-column">
+            <input type="text" placeholder="Write a Message">      
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>just mobile..!</span>
+    </div>
+    <script src="https://kit.fontawesome.com/da925ced24.js" crossorigin="anonymous"></script>
+</body>
+</html>
